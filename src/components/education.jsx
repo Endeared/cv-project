@@ -26,7 +26,7 @@ export default class About extends Component {
 
    render() {
       return (
-            <div>
+            <div class="main">
                <div class="generalInfo">GENERAL INFO
                   <div class="infoCont">
                      <input name="name" type="text" placeholder="Input name..." id="name" onChange={this.handleInputChange} value={this.state.name}></input>
@@ -66,7 +66,12 @@ export default class About extends Component {
                            </div>
                         </div>
                         <div class="rightHead">
-
+                           <div class="email">
+                           {this.state.email}
+                           </div>
+                           <div class="mobile">
+                           {this.state.mobile}
+                           </div>
                         </div>
                      </div>
                   </div>

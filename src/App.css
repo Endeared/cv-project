@@ -20,3 +20,32 @@ p {
     margin-bottom: 4vh;
     text-align: center;
 }
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5vw;
+    height: 10vh;
+}
+
+.rightHead {
+    margin-right: 3vw;
+    text-align: right;
+}
+
+.leftHead {
+    margin-left: 3vw;
+    text-align: left;
+}
+
+.cvBuilder {
+    background-color:rgba(0, 0, 255, 0.341);
+    width: 50vw;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
