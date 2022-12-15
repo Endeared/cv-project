@@ -3,3 +3,20 @@ body {
     font-weight: 600;
     font-size: 1.5rem;
 }
+
+p {
+    font-size: 1rem;
+}
+
+.generalInfo, .experience, .education {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.infoCont input {
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+    margin-bottom: 4vh;
+    text-align: center;
+}
