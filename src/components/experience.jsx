@@ -27,7 +27,7 @@ export default class About extends Component {
    render() {
       return (
             <div>
-               <div>GENERAL INFO</div>
+               <div>EXPERIENCE</div>
                <input name="name" type="text" placeholder="Input name..." id="name" onChange={this.handleInputChange} value={this.state.name}></input>
                <input name="email" placeholder="Input email..." id="email" onChange={this.handleInputChange} value={this.state.email}></input>
                <input name="mobile" placeholder="Input mobile..." id="mobile" onChange={this.handleInputChange} value={this.state.mobile}></input>
